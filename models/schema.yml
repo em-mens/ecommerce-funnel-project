@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_user_events
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+      - name: event_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['page_view', 'add_to_cart', 'checkout_start', 'payment_info', 'purchase']
+      - name: event_timestamp
+        tests:
+          - not_null
+      - name: traffic_source
+        tests:
+          - not_null
