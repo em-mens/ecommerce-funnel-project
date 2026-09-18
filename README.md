@@ -25,7 +25,7 @@ models/
 - Reallocate acquisition spend from social toward email — email users convert at nearly 5x the rate
 
 ## Dashboard
-[Add Looker Studio link here after visualization is built]
+https://www.figma.com/make/ZhLdEz4c7bXpYIUUC84Ccv/E-Commerce-Funnel-Dashboard?code-node-id=0-6&p=f&t=Ky5kJWDgD2oVwY4R-0&fullscreen=1
 
 ## How to Run
 1. Clone the repo
