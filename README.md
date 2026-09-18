@@ -25,7 +25,8 @@ models/
 - Reallocate acquisition spend from social toward email — email users convert at nearly 5x the rate
 
 ## Dashboard
-https://www.figma.com/make/jRbsL797V5WL0gSDJl0sOu/Ecommerce-Funnel-Stages?fullscreen=1&t=74gKXGrcjbs1t6RB-1&code-node-id=0-9
+![E-Commerce Funnel Dashboard](dashboard.gif)
+Link: https://www.figma.com/make/jRbsL797V5WL0gSDJl0sOu/Ecommerce-Funnel-Stages?fullscreen=1&t=74gKXGrcjbs1t6RB-1&code-node-id=0-9
 
 ## Run
 > Note: Requires a BigQuery project with the source event data loaded. 
