@@ -27,9 +27,14 @@ models/
 ## Dashboard
 https://www.figma.com/make/jRbsL797V5WL0gSDJl0sOu/Ecommerce-Funnel-Stages?fullscreen=1&t=74gKXGrcjbs1t6RB-1&code-node-id=0-9
 
-## How to Run
+## Run
+> Note: Requires a BigQuery project with the source event data loaded. 
+> The raw table schema is: user_id, event_id, event_type, event_date, 
+> product_id, amount, traffic_source.
+
 1. Clone the repo
-2. Install dependencies: pip install dbt-bigquery
-3. Configure ~/.dbt/profiles.yml with your BigQuery credentials
-4. Run models: dbt run
-5. Run tests: dbt test
+2. Install dependencies: `pip install dbt-bigquery`
+3. Load your event data into BigQuery matching the schema above
+4. Configure `~/.dbt/profiles.yml` with your BigQuery credentials
+5. Run models: `dbt run`
+6. Run tests: `dbt test`
