@@ -10,7 +10,7 @@ Addresses the problem of potential lost revenue across the purchase funnel. The 
 - BigQuery
 - SQL
 - dbt
-- Looker Studio
+- Figma
 
 ## Structure
 models/
@@ -25,7 +25,7 @@ models/
 - Reallocate acquisition spend from social toward email — email users convert at nearly 5x the rate
 
 ## Dashboard
-https://www.figma.com/make/ZhLdEz4c7bXpYIUUC84Ccv/E-Commerce-Funnel-Dashboard?code-node-id=0-6&p=f&t=Ky5kJWDgD2oVwY4R-0&fullscreen=1
+https://www.figma.com/make/jRbsL797V5WL0gSDJl0sOu/Ecommerce-Funnel-Stages?fullscreen=1&t=74gKXGrcjbs1t6RB-1&code-node-id=0-9
 
 ## How to Run
 1. Clone the repo
